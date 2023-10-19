@@ -1,0 +1,53 @@
+.side{
+    height: 1000px;
+    background-color:antiquewhite;
+    position: sticky;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Slab', serif;
+    width: 25%;
+}
+
+.topSide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topList{
+    list-style: none;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin: 10px; 
+    cursor: pointer;
+}
+
+li{
+    margin-bottom: 30px;
+}
+
+.bottomSide{
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    width: 85%;
+    padding-left: 10px;
+    margin: auto;
+}
+.bottomList{
+    list-style: none;
+    cursor:pointer;
+}
+
+.topImg{
+    font-size:20px;
+    margin-right: 15px;
+}
+
+.app{
+    background-color: antiquewhite;
+}
