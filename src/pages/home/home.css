@@ -1,0 +1,15 @@
+.home{
+    
+    overflow: auto;
+    top: 1px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content1{
+    
+    justify-content: space-between;
+    padding: 20px;
+    display: 3;
+}
